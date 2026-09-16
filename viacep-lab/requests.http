@@ -1,0 +1,13 @@
+@host = http://localhost:8000
+
+### Consulta um CEP valido
+GET {{host}}/enderecos/01310-100
+
+### CEP com formato invalido
+GET {{host}}/enderecos/123
+
+### CEP inexistente
+GET {{host}}/enderecos/99999999
+
+### Historico de consultas (sem paginacao hoje)
+GET {{host}}/consultas
