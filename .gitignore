@@ -1,0 +1,9 @@
+# Ambientes virtuais Python
+.dio03/
+.venv/
+venv/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
